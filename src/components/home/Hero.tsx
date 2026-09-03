@@ -99,7 +99,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-sukom-400/10 -rotate-3" />
                 <div className="absolute inset-0 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1469854523083-5709455c2f94?w=600&q=80"
+                    src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80"
                     alt="Travel destination"
                     className="w-full h-full object-cover"
                     loading="lazy"

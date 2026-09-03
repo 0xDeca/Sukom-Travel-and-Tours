@@ -22,7 +22,7 @@ export const destinations = [
   {
     id: "us",
     name: "United States",
-    image: "https://images.unsplash.com/photo-1485738422979-f5c462d49f04?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
     flag: "🇺🇸",
     continent: "North America",
     visaTypes: ["B1/B2 Tourist/Business", "F1 Student", "H1B Work", "ESTA"],
