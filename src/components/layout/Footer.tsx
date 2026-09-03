@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
             <div className="lg:col-span-5">
               <Link href="/" className="flex items-center gap-0 mb-6">
-                <img src="/sukom-logo-white.svg" alt="Sukom Travel & Tours" className="h-11" />
+                <img src="/sukomlogo.png" alt="Sukom Travel & Tours" className="h-10 brightness-0 invert" />
               </Link>
               <p className="text-slate-400 text-sm leading-relaxed max-w-sm mb-6">
                 Visa advisory, flight bookings, tour packages, and travel support — helping you navigate your journey from start to finish. IATA Accredited.

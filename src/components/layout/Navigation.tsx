@@ -57,7 +57,7 @@ export default function Navigation() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-0">
-              <img src="/sukom-logo.svg" alt="Sukom Travel & Tours" className="h-11" />
+              <img src="/sukomlogo.png" alt="Sukom Travel & Tours" className="h-10" />
             </Link>
 
             <nav className="hidden lg:flex items-center gap-1">

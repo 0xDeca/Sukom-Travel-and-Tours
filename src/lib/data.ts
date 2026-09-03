@@ -462,7 +462,16 @@ export const resources = [
     category: "Travel Tips",
     excerpt: "A comprehensive guide to help first-time international travellers prepare for a smooth and enjoyable journey.",
     date: "Jan 20, 2026",
-    readTime: "5 min read"
+    readTime: "5 min read",
+    body: [
+      "Travelling internationally for the first time can feel overwhelming, but with the right preparation, it becomes an exciting adventure. Here is a step-by-step guide to help you get started.",
+      "Start by ensuring your passport is valid for at least six months beyond your intended stay. Many countries enforce this rule strictly, and airlines may deny boarding if your passport is close to expiry.",
+      "Research the visa requirements for your destination well in advance. Some countries offer visa-on-arrival for Nigerian passport holders, while others require applications weeks or months ahead. Sukom Travel can help you navigate these requirements.",
+      "Book your flights early for the best fares. Mid-week flights (Tuesdays and Wednesdays) are often cheaper than weekend departures. Consider flexible tickets if your plans might change.",
+      "Travel insurance is essential. It covers medical emergencies, trip cancellations, and lost luggage. Many embassies require proof of travel insurance as part of your visa application.",
+      "Pack light but smart. Check the weather for your destination, bring appropriate clothing, and always carry essential medications in your carry-on luggage.",
+      "Finally, inform your bank about your travel dates to avoid your cards being blocked abroad. Carry some local currency for immediate expenses upon arrival."
+    ]
   },
   {
     id: "visa-documents",
@@ -470,7 +479,16 @@ export const resources = [
     category: "Visa Guides",
     excerpt: "Understanding the essential documents needed for visa applications can significantly improve your chances of success.",
     date: "Jan 15, 2026",
-    readTime: "7 min read"
+    readTime: "7 min read",
+    body: [
+      "A well-prepared visa application is the foundation of a successful outcome. Missing or incorrect documents are among the top reasons for visa refusals.",
+      "Your passport is the most critical document. Ensure it has at least two blank pages and is valid for six months beyond your intended travel date. Include any previous passports with travel history.",
+      "Financial documents demonstrate your ability to fund your trip. Prepare three to six months of bank statements, showing consistent income and sufficient funds. Avoid large last-minute deposits that may raise questions.",
+      "A strong cover letter explains your travel purpose, ties to Nigeria, and return plans. This is your opportunity to present your case clearly and professionally.",
+      "Supporting documents vary by visa type. Tourist visas need hotel bookings and an itinerary. Business visas require invitation letters. Student visas need admission letters and proof of tuition payment.",
+      "Always provide a travel itinerary with flight reservations and accommodation details. These demonstrate genuine travel intentions and help visa officers understand your plans.",
+      "Finally, ensure all documents are organised, legible, and complete. Missing pages or unclear copies can delay or jeopardise your application."
+    ]
   },
   {
     id: "consultation-prep",
@@ -478,7 +496,16 @@ export const resources = [
     category: "Travel Tips",
     excerpt: "Make the most of your travel consultation by coming prepared with the right information and questions.",
     date: "Jan 10, 2026",
-    readTime: "4 min read"
+    readTime: "4 min read",
+    body: [
+      "A travel consultation with Sukom is your opportunity to get expert guidance tailored to your specific needs. Here is how to make the most of it.",
+      "Before your consultation, clearly define your travel goals. Are you travelling for tourism, business, study, or to visit family? Knowing your purpose helps us recommend the best visa pathway.",
+      "Gather any documents you already have — passport copies, previous visa approvals, financial statements, and invitation letters. The more information we have, the better we can advise you.",
+      "Write down your questions beforehand. Common topics include visa processing times, required documents, travel costs, and destination-specific requirements. No question is too small.",
+      "Be honest about your situation. Whether it is your first visa application or you have been refused before, transparent information helps us provide accurate guidance and realistic timelines.",
+      "During the consultation, take notes. We will cover a lot of information, and having written records ensures you do not miss important details when preparing your application.",
+      "After the consultation, follow the action items we discuss. Timely document submission and prompt responses keep your application on track."
+    ]
   },
   {
     id: "uk-visa-updates",
@@ -486,7 +513,16 @@ export const resources = [
     category: "Travel Updates",
     excerpt: "Stay informed about the latest changes and requirements for UK visa applications.",
     date: "Jan 5, 2026",
-    readTime: "6 min read"
+    readTime: "6 min read",
+    body: [
+      "The UK remains one of the most popular destinations for Nigerian travellers, whether for tourism, education, or business. Here is what you need to know about the current visa process.",
+      "All UK visa applications from Nigeria are submitted through the UK Visas and Immigration (UKVI) portal. You will need to create an account, complete the online form, and book a biometric appointment.",
+      "Processing times vary by visa type. Standard visitor visas typically take 3 to 6 weeks, while student and work visas may take longer. We recommend applying at least 3 months before your intended travel date.",
+      "The UK uses a points-based immigration system for work and study visas. Understanding how your qualifications and experience score against the requirements is crucial for a successful application.",
+      "Financial requirements are strict. You must demonstrate sufficient funds to cover your stay without recourse to public funds. The required amount varies by visa type and duration.",
+      "Common reasons for refusal include insufficient financial evidence, weak ties to Nigeria, inconsistent information, and incomplete documentation. Working with an experienced advisor significantly reduces these risks.",
+      "If your application is refused, you may have the right to appeal or reapply. Understanding the refusal reason is key to a successful subsequent application."
+    ]
   },
   {
     id: "africa-travel-guide",
@@ -494,7 +530,16 @@ export const resources = [
     category: "Destination Guides",
     excerpt: "Discover the beauty and diversity of African travel destinations and what to expect.",
     date: "Dec 28, 2025",
-    readTime: "8 min read"
+    readTime: "8 min read",
+    body: [
+      "Africa is a continent of incredible diversity, from the deserts of the Sahara to the savannahs of East Africa and the beaches of the Indian Ocean. Travelling within Africa offers unique experiences you will not find anywhere else.",
+      "East African countries like Kenya and Tanzania are world-renowned for their wildlife safaris. The Maasai Mara and Serengeti offer some of the most spectacular animal migrations on Earth.",
+      "South Africa combines wildlife, stunning landscapes, and vibrant cities. Cape Town, the Winelands, and Kruger National Park make it a versatile destination for all types of travellers.",
+      "West Africa has its own charm, with Ghana offering rich cultural heritage, warm hospitality, and beautiful beaches. The Cape Coast castles tell powerful stories of African history.",
+      "North Africa, particularly Morocco, offers a blend of African, Arab, and European influences. From the medinas of Marrakech to the Sahara Desert, Morocco is a feast for the senses.",
+      "When travelling within Africa, research visa requirements carefully. Some countries offer visa-free entry for Nigerian passport holders, while others require visas in advance. Sukom can help you navigate these requirements.",
+      "Pack appropriate clothing for your destination, carry essential medications, and always have copies of your important documents. African travel rewards the prepared traveller with unforgettable experiences."
+    ]
   },
   {
     id: "visa-faqs",
@@ -502,6 +547,15 @@ export const resources = [
     category: "FAQs",
     excerpt: "Answers to the most common questions we receive about the visa application process.",
     date: "Dec 20, 2025",
-    readTime: "6 min read"
+    readTime: "6 min read",
+    body: [
+      "We receive many questions about the visa application process. Here are answers to the most frequently asked ones.",
+      "How long does a visa application take? Processing times vary by country and visa type. UK visitor visas typically take 3 to 6 weeks, US visas depend on interview availability, and UAE visas can be processed in 3 to 7 business days.",
+      "Can I apply for a visa if my passport is about to expire? Most countries require your passport to be valid for at least six months beyond your intended stay. We recommend renewing your passport before applying.",
+      "What if my visa application is refused? A refusal does not mean you can never get a visa. Understanding the refusal reason and addressing it in a new application is the key to success.",
+      "Do I need travel insurance for my visa application? Many countries require proof of travel insurance as part of the visa application process. Even when not required, travel insurance is strongly recommended.",
+      "Can Sukom guarantee my visa approval? No one can guarantee visa approval — the decision rests with the immigration authorities. What we can guarantee is a professionally prepared application that maximises your chances.",
+      "How do I track my application? Sukom provides regular updates throughout the process. You can also check your application status through our customer portal or by contacting our team directly."
+    ]
   }
 ];
