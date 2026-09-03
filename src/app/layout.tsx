@@ -5,6 +5,8 @@ import Footer from "@/components/layout/Footer";
 import DemoIndicator from "@/components/layout/DemoIndicator";
 import ContactWidget from "@/components/layout/ContactWidget";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import BackToTop from "@/components/layout/BackToTop";
+import ScrollProgress from "@/components/layout/ScrollProgress";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -36,6 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <DemoIndicator />
         <ContactWidget />
         <WhatsAppButton />
+        <BackToTop />
+        <ScrollProgress />
       </body>
     </html>
   );
