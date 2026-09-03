@@ -57,7 +57,7 @@ export default function Navigation() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-0">
-              <img src="/sukomlogo.png" alt="Sukom Travel & Tours" className="h-10" />
+              <img src="/sukomlogo.png" alt="Sukom Travel & Tours" className="h-12" />
             </Link>
 
             <nav className="hidden lg:flex items-center gap-1">
@@ -72,9 +72,13 @@ export default function Navigation() {
                     href={link.href}
                     className={cn(
                       "flex items-center gap-1 px-4 py-2 text-[13px] font-medium tracking-wide transition-colors duration-300",
-                      pathname === link.href || pathname.startsWith(link.href + "/")
-                        ? "text-charcoal-900"
-                        : "text-slate-500 hover:text-charcoal-900"
+                      scrolled
+                        ? (pathname === link.href || pathname.startsWith(link.href + "/")
+                            ? "text-charcoal-900"
+                            : "text-slate-500 hover:text-charcoal-900")
+                        : (pathname === link.href || pathname.startsWith(link.href + "/")
+                            ? "text-white"
+                            : "text-white/70 hover:text-white")
                     )}
                   >
                     {link.label}
@@ -82,6 +86,7 @@ export default function Navigation() {
                       <ChevronDown
                         className={cn(
                           "w-3.5 h-3.5 transition-transform duration-300",
+                          scrolled ? "text-slate-500" : "text-white/70",
                           activeDropdown === link.label && "rotate-180"
                         )}
                       />
@@ -117,7 +122,12 @@ export default function Navigation() {
             <div className="hidden lg:flex items-center gap-4">
               <Link
                 href="/application"
-                className="btn-primary text-xs py-3 px-6"
+                className={cn(
+                  "text-xs py-3 px-6 inline-flex items-center justify-center gap-2 font-medium tracking-wide uppercase transition-all duration-300",
+                  scrolled
+                    ? "btn-primary"
+                    : "border border-white/30 text-white hover:bg-white hover:text-charcoal-900"
+                )}
               >
                 Start an Application
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -126,7 +136,7 @@ export default function Navigation() {
 
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 text-charcoal-900"
+              className={cn("lg:hidden p-2", scrolled ? "text-charcoal-900" : "text-white")}
               aria-label="Toggle menu"
             >
               {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
