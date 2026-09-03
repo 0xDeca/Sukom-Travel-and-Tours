@@ -138,6 +138,48 @@ export const destinations = [
     ],
     processingTime: "1-3 weeks",
     nextStep: "Morocco visa requirements are well-defined. We can help prepare your application."
+  },
+  {
+    id: "za",
+    name: "South Africa",
+    image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80",
+    flag: "🇿🇦",
+    continent: "Africa",
+    visaTypes: ["Visitor Visa", "Business Visa", "Work Visa", "Study Visa"],
+    popularFor: ["Safari", "Tourism", "Business", "Wine Tours"],
+    overview: "South Africa offers diverse experiences from the iconic Table Mountain and Cape Winelands to world-class wildlife safaris and vibrant city life in Johannesburg and Cape Town.",
+    requirements: [
+      "Valid passport (30+ days beyond stay)",
+      "Completed visa application form",
+      "Passport-size photographs",
+      "Return flight booking",
+      "Proof of accommodation",
+      "Bank statements (3 months)",
+      "Yellow fever certificate"
+    ],
+    processingTime: "2-4 weeks",
+    nextStep: "South Africa visa processing takes time. Start early with a consultation."
+  },
+  {
+    id: "gh",
+    name: "Ghana",
+    image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80",
+    flag: "🇬🇭",
+    continent: "Africa",
+    visaTypes: ["Tourist Visa", "Business Visa", "Transit Visa", "Visa on Arrival"],
+    popularFor: ["Culture", "Tourism", "Business", "Heritage"],
+    overview: "Ghana is a warm and welcoming West African destination known for its rich history, vibrant culture, and friendly people. From Cape Coast Castle to Accra's bustling markets, Ghana offers a unique African experience.",
+    requirements: [
+      "Valid passport (6+ months validity)",
+      "Completed visa application",
+      "Passport photographs",
+      "Return/onward ticket",
+      "Proof of accommodation",
+      "Yellow fever vaccination certificate",
+      "Proof of financial means"
+    ],
+    processingTime: "1-2 weeks",
+    nextStep: "Ghana visa processing is straightforward. We can guide you through every step."
   }
 ];
 
@@ -149,7 +191,7 @@ export const tourPackages = [
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
     duration: "5 Days / 4 Nights",
     type: "Luxury",
-    price: "From $2,800",
+    price: "From ₦4,200,000",
     isDemo: true,
     highlights: ["Burj Khalifa Visit", "Desert Safari", "Gold Souk Tour", "Marina Cruise", "Abu Dhabi Day Trip"],
     description: "Experience the best of Dubai with our curated luxury package. From towering skyscrapers to golden desert dunes, this journey covers all the iconic experiences.",
@@ -170,7 +212,7 @@ export const tourPackages = [
     image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80",
     duration: "7 Days / 6 Nights",
     type: "Adventure",
-    price: "From $2,200",
+    price: "From ₦3,300,000",
     isDemo: true,
     highlights: ["Table Mountain", "Cape Peninsula", "Winelands Tour", "Robben Island", "Boulders Beach Penguins"],
     description: "Discover the beauty of Cape Town from the iconic Table Mountain to the charming penguins of Boulders Beach.",
@@ -193,7 +235,7 @@ export const tourPackages = [
     image: "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&q=80",
     duration: "6 Days / 5 Nights",
     type: "Beach",
-    price: "From $1,800",
+    price: "From ₦2,700,000",
     isDemo: true,
     highlights: ["Stone Town Tour", "Spice Farm Visit", "Prison Island", "Snorkeling", "Sunset Dhow Cruise"],
     description: "Relax on the pristine beaches of Zanzibar while exploring its rich cultural heritage and vibrant marine life.",
@@ -215,7 +257,7 @@ export const tourPackages = [
     image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80",
     duration: "8 Days / 7 Nights",
     type: "Cultural",
-    price: "From $2,500",
+    price: "From ₦3,750,000",
     isDemo: true,
     highlights: ["Marrakech Medina", "Sahara Desert Camp", "Fes Ancient City", "Chefchaouen", "Atlas Mountains"],
     description: "Journey through Morocco's imperial cities, from the bustling souks of Marrakech to the blue streets of Chefchaouen and the vast Sahara Desert.",
@@ -239,7 +281,7 @@ export const tourPackages = [
     image: "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=800&q=80",
     duration: "7 Days / 6 Nights",
     type: "Safari",
-    price: "From $3,200",
+    price: "From ₦4,800,000",
     isDemo: true,
     highlights: ["Maasai Mara", "Nakuru National Park", "Great Rift Valley", "Maasai Village", "Nairobi City Tour"],
     description: "Experience the magic of Kenya's wildlife on this unforgettable safari through some of Africa's most famous national parks.",
@@ -254,6 +296,52 @@ export const tourPackages = [
     ],
     included: ["Airport transfers", "Safari lodge accommodation", "All meals on safari", "Game drives", "Park fees", "Guide"],
     excluded: ["International flights", "Travel insurance", "Visa fees", "Tips", "Personal expenses"]
+  },
+  {
+    id: "south-africa",
+    destination: "South Africa",
+    name: "South Africa Explorer",
+    image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80",
+    duration: "8 Days / 7 Nights",
+    type: "Adventure",
+    price: "From ₦5,200,000",
+    isDemo: true,
+    highlights: ["Table Mountain", "Cape Winelands", "Kruger National Park", "Garden Route", "Johannesburg City Tour"],
+    description: "Explore the best of South Africa from the iconic Table Mountain to the wildlife of Kruger National Park and the scenic Garden Route.",
+    itinerary: [
+      { day: 1, title: "Arrival in Cape Town", description: "Airport transfer, V&A Waterfront evening." },
+      { day: 2, title: "Table Mountain", description: "Cable car to Table Mountain, city exploration." },
+      { day: 3, title: "Cape Peninsula", description: "Cape Point, Chapman's Peak, penguin colony." },
+      { day: 4, title: "Winelands", description: "Stellenbosch wine region tour and tasting." },
+      { day: 5, title: "Fly to Johannesburg", description: "Flight to Johannesburg, city tour." },
+      { day: 6, title: "Kruger National Park", description: "Transfer to Kruger, afternoon game drive." },
+      { day: 7, title: "Full Day Safari", description: "Full day game drive, big five spotting." },
+      { day: 8, title: "Departure", description: "Transfer to airport." }
+    ],
+    included: ["Airport transfers", "7 nights accommodation", "Daily breakfast", "Domestic flight", "Game drives", "All tours"],
+    excluded: ["International flights", "Travel insurance", "Some meals", "Visa fees", "Personal expenses"]
+  },
+  {
+    id: "ghana",
+    destination: "Ghana",
+    name: "Ghana Heritage & Culture",
+    image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80",
+    duration: "6 Days / 5 Nights",
+    type: "Cultural",
+    price: "From ₦2,100,000",
+    isDemo: true,
+    highlights: ["Cape Coast Castle", "Kakum National Park", "Accra Markets", "Cape Coast Beaches", "W.E.B. Du Bois Centre"],
+    description: "Discover Ghana's rich history and vibrant culture, from the historic Cape Coast Castle to the bustling markets of Accra.",
+    itinerary: [
+      { day: 1, title: "Arrival in Accra", description: "Airport pickup, hotel check-in, evening at Labadi Beach." },
+      { day: 2, title: "Accra City Tour", description: "Kwame Nkrumah Memorial, Makola Market, Jamestown." },
+      { day: 3, title: "To Cape Coast", description: "Drive to Cape Coast, Cape Coast Castle tour." },
+      { day: 4, title: "Kakum National Park", description: "Canopy walkway, nature trail, biodiversity." },
+      { day: 5, title: "Beach Day & Culture", description: "Cape Coast beaches, local food tour, farewell dinner." },
+      { day: 6, title: "Departure", description: "Transfer to Accra airport." }
+    ],
+    included: ["Airport transfers", "5 nights accommodation", "Daily breakfast", "All tours", "Transport", "Guide"],
+    excluded: ["International flights", "Travel insurance", "Some meals", "Visa fees", "Personal expenses"]
   }
 ];
 
